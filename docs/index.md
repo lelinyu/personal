@@ -1,13 +1,12 @@
-# Welcome to MkDocs
+# Welcome to Bryan's Website!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hi! Welcome to my website where you can find more information about me and some of the work that I've been doing.
 
-## Commands
+## About me
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Class of 2028 at UCLA
+* Majoring in Computer Science with interests in AI/ML and Data Science
+* Enjoy skiing and playing volleyball
 
 ## Project layout
 
@@ -15,5 +14,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
-Hi my name is :fontawesome-solid-b:ryan!

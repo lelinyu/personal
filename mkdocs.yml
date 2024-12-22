@@ -1,4 +1,4 @@
-site_name: My MkDocs Material Documentation
+site_name: Bryan's Website!
 site_url: https://sitename.example
 theme:
   name: material
@@ -7,6 +7,8 @@ theme:
     code: Roboto Mono
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     # Dark Mode
     - scheme: slate
@@ -23,6 +25,10 @@ theme:
         name: Light mode
       primary: deep purple
       accent: light blue
+
+nav:
+  - Home: index.md
+  - Content: content-tabs.md
 
 markdown_extensions:
   - attr_list
