@@ -1,4 +1,3 @@
 # personal
 
-Personal Website Project
-Accessible at: [https://lelinyu.github.io/personal/](https://lelinyu.github.io/personal/)
+Personal website project accessible at: [https://lelinyu.github.io/personal/](https://lelinyu.github.io/personal/)
