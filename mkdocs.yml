@@ -32,11 +32,19 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
+extra:
+  social:
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/bryanleyu/
+    - icon: simple/github
+      link: https://github.com/lelinyu
 
 copyright: Copyright &copy; 2025 Bryan Yu
