@@ -6,7 +6,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
   palette:
@@ -28,7 +27,37 @@ theme:
 
 nav:
   - Home: index.md
-  - Content: content-tabs.md
+  - Past Notes:
+    - Past Notes: Past Notes.md
+    - CS61A:
+      - Lecture 1 Welcome: su23CS61A/Lecture 1 Welcome.md
+      - Lecture 2 Functions: su23CS61A/Lecture 2 Functions.md
+      - Lecture 3 Control: su23CS61A/Lecture 3 Control.md
+      - Lecture 4 Higher-Order Functions: su23CS61A/Lecture 4 Higher-Order Functions.md
+      - Lecture 5 Environments: su23CS61A/Lecture 5 Environments.md
+      - Lecture 6 Functional Abstraction: su23CS61A/Lecture 6 Functional Abstraction.md
+      - Lecture 7 Recursion: su23CS61A/Lecture 7 Recursion.md
+      - Lecture 8 Tree Recursion: su23CS61A/Lecture 8 Tree Recursion.md
+      - Lecture 9 Sequences & Containers: su23CS61A/Lecture 9 Sequences & Containers.md
+      - Lecture 10 Mutability, Data Abstraction: su23CS61A/Lecture 10 Mutability, Data Abstraction.md
+      - Lecture 11 ADT Trees: su23CS61A/Lecture 11 ADT Trees.md
+      - Lecture 12 Iterators and Generators: su23CS61A/Lecture 12 Iterators and Generators.md
+      - Lecture 13 Efficiency: su23CS61A/Lecture 13 Efficiency.md
+      - Lecture 15 Objects: su23CS61A/Lecture 15 Objects.md
+      - Lecture 16 Inheritance and String Representation: su23CS61A/Lecture 16 Inheritance and String Representation.md
+      - Lecture 17 Trees (class): su23CS61A/Lecture 17 Trees (class).md
+      - Lecture 18 Linked Lists: su23CS61A/Lecture 18 Linked Lists.md
+      - Lecture 19 Scheme I: su23CS61A/Lecture 19 Scheme I.md
+      - Lecture 20 Scheme II, Tail Recursion: su23CS61A/Lecture 20 Scheme II, Tail Recursion.md
+      - Lecture 21 Interpreters: su23CS61A/Lecture 21 Interpreters.md
+      - Lecture 22 Scheme Data Abstraction: su23CS61A/Lecture 22 Scheme Data Abstraction.md
+      - Lecture 23 Regular Expressions: su23CS61A/Lecture 23 Regular Expressions.md
+      - Lecture 24 SQL I: su23CS61A/Lecture 24 SQL I.md
+      - Lecture 25 SQL II: su23CS61A/Lecture 25 SQL II.md
+      - Lecture 26 Special Topics 1 (Compilers and CPython Internals): su23CS61A/Lecture 26 Special Topics 1 (Compilers and CPython Internals).md
+      - Lecture 27 Special Topics II (Intro to Bioinformatics): su23CS61A/Lecture 27 Special Topics II (Intro to Bioinformatics).md
+      - Lecture 28 Special Topics III (Python Pickling): su23CS61A/Lecture 28 Special Topics III (Python Pickling).md
+      - Lecture 29 Final Review: su23CS61A/Lecture 29 Final Review.md
 
 markdown_extensions:
   - attr_list
@@ -39,6 +68,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - admonition
+  - pymdownx.details
 
 extra:
   social:
